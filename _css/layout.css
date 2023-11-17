@@ -1,0 +1,304 @@
+@font-face {
+    font-family: Poppins;
+    src: url(../_font/_poppins/Poppins-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: Poppins;
+}
+.Barra-Navegacao{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 40px;
+    box-shadow: 0 0.1rem 0.1rem #ccc;
+}.Barra-Navegacao .menu-nav ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+}.Barra-Navegacao .menu-nav a{
+    font-size: 1rem;
+    color: black;
+    transition: all 0.3s ease;  
+}.Barra-Navegacao .menu-nav a:hover{
+    color: orange;
+    
+}.Barra-Navegacao .menu-nav i{
+    font-size: 2rem;
+}.Barra-Navegacao .logo-nav a{
+    font-size: 1.5rem;
+    color: black;
+}.Barra-Navegacao .logo-nav span{
+    color: orange;
+}.main-index{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}.banner{
+    margin-top:2em;
+    display: flex;
+    justify-content: space-between;
+    height: 70vh;
+    padding: 18px 40px;
+}.texto{
+    width: 50%;
+}
+.texto h2{
+     font-size: 3rem;
+}.texto p{
+   text-align: justify;
+}.imagem img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Página "Sobre" */
+
+.sobre-nos{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    padding: 20px;
+}
+
+
+.sobre-nos .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 3em;
+}
+
+.destaques{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.destaques .boxes{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.destaques .boxes .box{
+    background-color: rgb(255, 210, 112);
+    padding: 20px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 500ms ease-out;
+}
+
+.box{
+    background-color: rgb(255, 164, 112);
+    padding: 20px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 500ms ease-out;
+}
+
+.box:hover{
+    transition: all 500ms ease-in;
+    transform: scale(1.1);
+}
+
+.localizacao .container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.localizacao .container p{
+    color: rgb(75, 49, 1);
+}
+
+.localizacao .container h3{
+    margin-top: 1em;
+    flex-wrap: wrap;
+    color: orange;
+}
+
+/* Página "Menu" */
+
+.menu .titulo{
+    display: flex;
+    justify-content: center;
+    margin:1.2em auto;
+}
+
+.menu .container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 30px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.menu .container .box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    width: 240px;
+    height: 220px;
+    background-color: #f0f0ef;
+}
+
+.comprar{
+    color: #212121;
+    background-color: rgb(200, 255, 112);
+    padding: 10px 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: 600;
+    border:none;
+}
+
+
+.menu .container .box img{
+    width: 70%;
+}
+
+.menu .container .box #item4{
+    width: 51%;
+}
+
+.menu .container .box #item6{
+    width: 55%;
+}
+
+/* Página "Contatos" */
+
+.contatos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.contatos-titulo{
+    display: flex;
+    justify-content: center;
+    margin:1.2em auto;
+    color: orange;
+}
+
+.wel{
+    padding: 0.5 0 0.5 1;
+    font-size: 45px;
+    color: orange;
+}
+
+.contatos .container{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.contatos .container .opcoes-contato{
+    background-color: #f0f0ef;
+    padding: 30px 50px;
+    border-radius: 15px;
+}
+
+.opcoes-contato h3{
+    color: orange;
+}
+
+.opcoes-contato ul li{
+    color: rgb(75, 49, 1);
+}
+
+li{
+    display: flex;
+    align-self: center;
+    align-items: center;
+    gap: 3px;
+}
+
+.contatos .form{
+    margin-top: 1.4em;
+}
+
+.contatos .form form{
+    display:flex;
+    text-align: flex-start;
+    flex-direction:column;
+    gap:20px;
+    background-color: #f0f0ef;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.form form label{
+    color: orange;
+    font-weight: 600;
+}
+
+.form form input,
+form textarea{
+    padding:16px 25px;
+    border-radius: 15px;
+    border: none;
+    background-color: #dbd9d9;
+    color: #212121;
+}
+
+form textarea{
+    height: 100px;
+}
+
+form .button{
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+}
+
+form .button button{
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    padding: 13px 80px;
+    background-color: orange;
+    color: #212121;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+}
+.botao{
+    background-color: orange;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 15px 25px;
+    border: orange;
+    align-self: center;
+    display:flex;
+    margin: 0 auto;
+    
+}
+.botao:hover { 
+    transition: 1s;
+    color: orangered;
+
+   
+}
+.texto p{
+    padding: 20px 10px 20px 0;
+    flex-wrap: wrap;
+} 
+.texto h2{
+    padding: 20px 0 20px 0;
+    font-size: 30px;
+}
