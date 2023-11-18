@@ -302,3 +302,20 @@ form .button button{
     padding: 20px 0 20px 0;
     font-size: 30px;
 }
+
+@media screen and (max-width:764px) {
+    .banner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .banner .imagem{
+        margin-top: 100px;
+    }
+
+    .banner .imagem img{
+        width: 200px;
+    }
+}
